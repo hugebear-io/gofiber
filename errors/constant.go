@@ -1,0 +1,23 @@
+package errors
+
+// SYSTEM ERROR ----->>
+const (
+	SYSTEM_ERROR_CODE = "SE00000"
+)
+
+// AUTHORIZATION ERROR ----->>
+const ()
+
+// DATABASE ERROR ----->>
+const (
+	DATABASE_NOTFOUND_CODE = "DE00404"
+)
+
+// CACHE ERROR ---->>
+const ()
+
+// VALIDATION ERROR ----->>
+const (
+	VALIDATION_MISSING_FIELD_CODE   = "VE00402"
+	VALIDATION_FIELD_NOT_MATCH_CODE = "VE00400"
+)
